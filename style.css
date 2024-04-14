@@ -1,0 +1,118 @@
+nav {
+    border: 2px solid black;
+    
+}
+
+.alinhamento-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    gap: 0.5em;
+    padding: 0.5em;
+    margin: 0;
+}
+
+figure{
+    margin: 1em 1em 0em;
+    
+}
+
+img{
+    width: 97px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+#menu{
+    align-self: flex-end;
+}
+.banner{
+    border: 2px solid black;
+    display: flex;
+   
+}
+
+.alinhamento-texto-article-um{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome {
+    border: 0px solid black;
+    display: flex;
+    padding: 1em;
+    
+}
+
+.retangulo, .quadradoFacebook {
+    width: 200px;
+    height: 200px;
+    margin: 10px; /* Espaçamento entre os elementos */
+    border: 1px solid black;
+    text-align: center;
+    font-family: cursive;
+        
+}
+
+.retangulo {
+    width: 500px; /* Largura do retângulo */
+}
+.container {
+    display: flex; /* Utiliza flexbox para organizar os elementos */
+    justify-content: space-between;
+    margin-bottom: 2rem;
+                
+}
+
+.quadrado5 {
+    width: calc(20% - 20px);
+    height: 120px;
+    margin-right: 10px; /* Espaçamento entre os quadrados */
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+/* Remove a margem direita do último quadrado para evitar espaçamento adicional */
+.quadrado:last-child {
+    margin-right:0%
+}
+.blog {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color:#ccc
+               
+}
+
+.conteudo {
+    margin-bottom: 0;
+}
+.galleryconteudo {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+.quadrado3 {
+    width: calc(33.33% - 20px);
+    background-color: #ccc;
+    padding: 10px;
+    flex-direction: row;
+}
+.blogPhSchool {
+    display: flex;
+    gap: 2em;
+}
+.calender {
+    display: flex;
+    justify-content: center;
+
+}
+
